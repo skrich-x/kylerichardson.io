@@ -2,7 +2,7 @@
 @import '../bower_components/neat/app/assets/stylesheets/neat';
 
 // Typography
-$base-font-family: $helvetica;
+$base-font-family:'Open Sans', sans-serif;
 
 // Colors
 $blue: #477dca;
@@ -18,4 +18,33 @@ body {
   font-family: $base-font-family;
   background-color: $base-background-color;
   color: $base-font-color;
+}
+
+h1,h2,h3,h4,h5,h6{
+  margin:0;
+  padding:0;
+}
+
+img{
+  margin:0;
+
+}
+
+.backgroundImage img{
+  width:100%;
+  position: relative;
+  z-index: -100;
+}
+
+// .logo img{
+//   @include span-columns(6);
+//   @include shift(3);
+//   z-index: 10;
+//   position:absolute;
+// }
+
+.biography{
+  margin-top:-1em;
+  background-color: black;
+  font-size: 5em;
 }
